@@ -1,0 +1,73 @@
+body {
+    background-image: linear-gradient(black, grey);
+    font-family: 'Teko', sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
+
+ul button {
+    height: 50px;
+    width: 150px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.float {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 23%;
+    width: auto;
+    height: 100%;
+    float: left;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+aside button {
+    text-align: left;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    border-color: gold;
+    cursor: pointer;
+}
+
+.container {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+div input {
+    padding-top: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
